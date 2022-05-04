@@ -1,0 +1,358 @@
+body {
+  background: #ffffff;
+  font-family: Arial;
+  width: 100%;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.myName {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.myName:hover {
+  background-color: rgb(13, 111, 190);
+  color: #ffffff;
+}
+
+.topSocials {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.git1 {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-top: 25px;
+  margin-right: 15px;
+  border: 5px;
+}
+.topSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: WHITE;
+  color: BLACK;
+  padding: 15px;
+}
+.secondSpace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 252, 252);
+  height: 320px;
+  width: auto;
+}
+.H1 {
+  color: rgb(0, 0, 0);
+  /* border-style: ridge; */
+}
+
+.H2 {
+  color: rgb(0, 0, 0);
+  border-style: ridge;
+  border-color: teal;
+}
+.H4 {
+  text-align: center;
+  font-size: 40px;
+}
+.H3 {
+  text-align: center;
+  font-size: 35px;
+}
+.aboutMe {
+  font-size: 110%;
+}
+/* h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: beige;
+}
+h2 {
+  color: rgb(207, 231, 228); 
+}*/
+/* p {
+  color: rgb(9, 102, 91); 
+}*/
+/* .places {
+  color: rgb(136, 12, 12);
+} */
+.myImage {
+  border-radius: 250px;
+  width: 250px;
+  height: 250px;
+}
+.Phno {
+  color: rgb(255, 255, 255);
+  border-style: ridge;
+}
+/* .Mybuttons {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(0, 0, 0); 
+}*/
+.topSocials {
+  align-items: right;
+}
+.homeButton {
+  width: 75px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border: 2px solid teal;
+}
+.homeButton:hover {
+  background-color: teal;
+  color: white;
+}
+.work {
+  width: 75px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border: 2px solid teal;
+}
+.work:hover {
+  background-color: teal;
+  color: white;
+}
+.about {
+  width: 75px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid teal;
+}
+.about:hover {
+  background-color: teal;
+  color: white;
+}
+.skills {
+  width: 75px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid teal;
+}
+
+.skills:hover {
+  background-color: teal;
+  color: white;
+}
+.contact {
+  width: 90px;
+  height: 50px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid teal;
+}
+.contact:hover {
+  background-color: rgb(2, 146, 146);
+  color: white;
+}
+.myCv {
+  width: 115px;
+  height: 35px;
+  color: rgb(12, 11, 12);
+  border-style: ridge;
+  background-color: #ffffff;
+  padding: 2px;
+  border: 2px solid rgb(62, 63, 63);
+}
+.myCv:hover {
+  background-color: rgb(125, 64, 224);
+  color: #ffffff;
+  border: 0px;
+  padding: 2px;
+}
+.navbarButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  row-gap: 15px;
+}
+.places {
+  text-align: center;
+  color: rgb(12, 176, 226);
+}
+
+.WorkExperience {
+  display: grid;
+  /* grid-template-rows: 200px 200px;
+  grid-template-columns: 200px 200px; */
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 50px;
+  column-gap: 50px;
+  /* font-size: auto; */
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  width: auto;
+}
+
+.FirstPlace {
+  padding: 35px;
+  border: 10px;
+  margin: 25px;
+  color: #ffffff;
+  background-color: rgb(87, 84, 90);
+  font-size: 15px;
+}
+.FirstPlaceP {
+  font-size: 18px;
+}
+/* .place1 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50px 1fr;
+} */
+.SecondPlace {
+  padding: 35px;
+  color: #ffffff;
+  border: 10px;
+  margin: 25px;
+  background-color: rgb(87, 84, 90);
+}
+.ThirdPlace {
+  padding: 35px;
+  color: #ffffff;
+  border: 10px;
+  margin: 25px;
+  background-color: rgb(87, 84, 90);
+}
+.ForthPlace {
+  padding: 35px;
+  color: #ffffff;
+  border: 10px;
+  margin: 25px;
+  background-color: rgb(87, 84, 90);
+}
+.horizontal {
+  height: 2px;
+  width: auto;
+  background-color: teal;
+}
+/* .SKILLS {
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 25px;
+  column-gap: 25px;
+  padding: 15px;
+  background-color: rgb(212, 27, 27);
+  color: rgb(37, 36, 36);
+} */
+.skillsHeading {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+.SKILLS {
+  display: grid;
+  /* grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px; */
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 50px;
+  column-gap: 50px;
+  /* font-size: auto; */
+  background-color: rgb(255, 255, 255);
+  color: #050505;
+  /* height: auto;
+  width: auto; */
+}
+.H10 {
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+  border: 25px;
+}
+
+.H11 {
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+  border: 25px;
+}
+.H12 {
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+  border: 25px;
+}
+.H13 {
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+  border: 25px;
+}
+.skillsHr {
+  height: 2px;
+  width: auto;
+  background-color: teal;
+}
+.Footer {
+  text-align: center;
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 15px;
+
+  background-color: #ffffff;
+  color: #000000;
+}
+.connect {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-size: 35px;
+}
+.contactHr {
+  height: 2px;
+  width: 200px;
+  background-color: rgb(0, 0, 0);
+}
+.Linkedin {
+  color: #000000;
+  font-size: 15px;
+}
+
+.socialMedia {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.twitter {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-top: 25px;
+  margin-right: 15px;
+}
+.git {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-top: 25px;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
+}
